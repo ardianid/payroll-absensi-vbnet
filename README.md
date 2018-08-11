@@ -14,7 +14,9 @@ fitur program ini adalah :
 3. otomatis mengetahui jam keluar dan masuk pegawai sesuai dengan shift nya(terbagi menjadi 3 shift)
 4. penggajian bulanan,mingguan dan harian
 5. input hasil borongan berdasarkan jam masuk dan keluar pegawai
-
+6. laporan karyawan sakit,izin,alpha periode tertentu
+7. laporan berdasarkan pekerjaan borongan
+8. dan masih banyak lagi
 
 bahasa pemrograman yang dipakai adalah vb.net, dan sql server untuk databasenya
 
