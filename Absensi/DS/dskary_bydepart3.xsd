@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dskary_bydepart3" targetNamespace="http://tempuri.org/dskary_bydepart3.xsd" xmlns:mstns="http://tempuri.org/dskary_bydepart3.xsd" xmlns="http://tempuri.org/dskary_bydepart3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dskary_bydepart3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dskary_bydepart3" msprop:Generator_UserDSName="dskary_bydepart3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="depart" msprop:Generator_ColumnVarNameInTable="columndepart" msprop:Generator_ColumnPropNameInRow="depart" msprop:Generator_ColumnPropNameInTable="departColumn" msprop:Generator_UserColumnName="depart" type="xs:string" minOccurs="0" />
+              <xs:element name="nip" msprop:Generator_ColumnVarNameInTable="columnnip" msprop:Generator_ColumnPropNameInRow="nip" msprop:Generator_ColumnPropNameInTable="nipColumn" msprop:Generator_UserColumnName="nip" type="xs:string" minOccurs="0" />
+              <xs:element name="nama" msprop:Generator_ColumnVarNameInTable="columnnama" msprop:Generator_ColumnPropNameInRow="nama" msprop:Generator_ColumnPropNameInTable="namaColumn" msprop:Generator_UserColumnName="nama" type="xs:string" minOccurs="0" />
+              <xs:element name="tgl_mulai" msprop:Generator_ColumnVarNameInTable="columntgl_mulai" msprop:Generator_ColumnPropNameInRow="tgl_mulai" msprop:Generator_ColumnPropNameInTable="tgl_mulaiColumn" msprop:Generator_UserColumnName="tgl_mulai" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="nama_golongan" msprop:Generator_ColumnVarNameInTable="columnnama_golongan" msprop:Generator_ColumnPropNameInRow="nama_golongan" msprop:Generator_ColumnPropNameInTable="nama_golonganColumn" msprop:Generator_UserColumnName="nama_golongan" type="xs:string" minOccurs="0" />
+              <xs:element name="jabatan" msprop:Generator_ColumnVarNameInTable="columnjabatan" msprop:Generator_ColumnPropNameInRow="jabatan" msprop:Generator_ColumnPropNameInTable="jabatanColumn" msprop:Generator_UserColumnName="jabatan" type="xs:string" minOccurs="0" />
+              <xs:element name="tgl_kon1" msprop:Generator_ColumnVarNameInTable="columntgl_kon1" msprop:Generator_ColumnPropNameInRow="tgl_kon1" msprop:Generator_ColumnPropNameInTable="tgl_kon1Column" msprop:Generator_UserColumnName="tgl_kon1" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tgl_kon11" msprop:Generator_ColumnVarNameInTable="columntgl_kon11" msprop:Generator_ColumnPropNameInRow="tgl_kon11" msprop:Generator_ColumnPropNameInTable="tgl_kon11Column" msprop:Generator_UserColumnName="tgl_kon11" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tgl_kon2" msprop:Generator_ColumnVarNameInTable="columntgl_kon2" msprop:Generator_ColumnPropNameInRow="tgl_kon2" msprop:Generator_ColumnPropNameInTable="tgl_kon2Column" msprop:Generator_UserColumnName="tgl_kon2" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tgl_kon22" msprop:Generator_ColumnVarNameInTable="columntgl_kon22" msprop:Generator_ColumnPropNameInRow="tgl_kon22" msprop:Generator_ColumnPropNameInTable="tgl_kon22Column" msprop:Generator_UserColumnName="tgl_kon22" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tgl_kon3" msprop:Generator_ColumnVarNameInTable="columntgl_kon3" msprop:Generator_ColumnPropNameInRow="tgl_kon3" msprop:Generator_ColumnPropNameInTable="tgl_kon3Column" msprop:Generator_UserColumnName="tgl_kon3" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tgl_kon33" msprop:Generator_ColumnVarNameInTable="columntgl_kon33" msprop:Generator_ColumnPropNameInRow="tgl_kon33" msprop:Generator_ColumnPropNameInTable="tgl_kon33Column" msprop:Generator_UserColumnName="tgl_kon33" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

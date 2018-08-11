@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_gajiborongan" targetNamespace="http://tempuri.org/ds_gajiborongan.xsd" xmlns:mstns="http://tempuri.org/ds_gajiborongan.xsd" xmlns="http://tempuri.org/ds_gajiborongan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_gajiborongan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_gajiborongan" msprop:Generator_UserDSName="ds_gajiborongan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nip" msprop:Generator_ColumnVarNameInTable="columnnip" msprop:Generator_ColumnPropNameInRow="nip" msprop:Generator_ColumnPropNameInTable="nipColumn" msprop:Generator_UserColumnName="nip" type="xs:string" minOccurs="0" />
+              <xs:element name="nama" msprop:Generator_ColumnVarNameInTable="columnnama" msprop:Generator_ColumnPropNameInRow="nama" msprop:Generator_ColumnPropNameInTable="namaColumn" msprop:Generator_UserColumnName="nama" type="xs:string" minOccurs="0" />
+              <xs:element name="SENIN" msprop:Generator_ColumnVarNameInTable="columnSENIN" msprop:Generator_ColumnPropNameInRow="SENIN" msprop:Generator_ColumnPropNameInTable="SENINColumn" msprop:Generator_UserColumnName="SENIN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SELASA" msprop:Generator_ColumnVarNameInTable="columnSELASA" msprop:Generator_ColumnPropNameInRow="SELASA" msprop:Generator_ColumnPropNameInTable="SELASAColumn" msprop:Generator_UserColumnName="SELASA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RABU" msprop:Generator_ColumnVarNameInTable="columnRABU" msprop:Generator_ColumnPropNameInRow="RABU" msprop:Generator_ColumnPropNameInTable="RABUColumn" msprop:Generator_UserColumnName="RABU" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KAMIS" msprop:Generator_ColumnVarNameInTable="columnKAMIS" msprop:Generator_ColumnPropNameInRow="KAMIS" msprop:Generator_ColumnPropNameInTable="KAMISColumn" msprop:Generator_UserColumnName="KAMIS" type="xs:decimal" minOccurs="0" />
+              <xs:element name="JUMAT" msprop:Generator_ColumnVarNameInTable="columnJUMAT" msprop:Generator_ColumnPropNameInRow="JUMAT" msprop:Generator_ColumnPropNameInTable="JUMATColumn" msprop:Generator_UserColumnName="JUMAT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SABTU" msprop:Generator_ColumnVarNameInTable="columnSABTU" msprop:Generator_ColumnPropNameInRow="SABTU" msprop:Generator_ColumnPropNameInTable="SABTUColumn" msprop:Generator_UserColumnName="SABTU" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MINGGU" msprop:Generator_ColumnVarNameInTable="columnMINGGU" msprop:Generator_ColumnPropNameInRow="MINGGU" msprop:Generator_ColumnPropNameInTable="MINGGUColumn" msprop:Generator_UserColumnName="MINGGU" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

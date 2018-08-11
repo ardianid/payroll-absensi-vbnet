@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_gajibulanan1" targetNamespace="http://tempuri.org/ds_gajibulanan1.xsd" xmlns:mstns="http://tempuri.org/ds_gajibulanan1.xsd" xmlns="http://tempuri.org/ds_gajibulanan1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_gajibulanan1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_gajibulanan1" msprop:Generator_UserDSName="ds_gajibulanan1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="depart" msprop:Generator_ColumnVarNameInTable="columndepart" msprop:Generator_ColumnPropNameInRow="depart" msprop:Generator_ColumnPropNameInTable="departColumn" msprop:Generator_UserColumnName="depart" type="xs:string" minOccurs="0" />
+              <xs:element name="nip" msprop:Generator_ColumnVarNameInTable="columnnip" msprop:Generator_ColumnPropNameInRow="nip" msprop:Generator_ColumnPropNameInTable="nipColumn" msprop:Generator_UserColumnName="nip" type="xs:string" minOccurs="0" />
+              <xs:element name="nama" msprop:Generator_ColumnVarNameInTable="columnnama" msprop:Generator_ColumnPropNameInRow="nama" msprop:Generator_ColumnPropNameInTable="namaColumn" msprop:Generator_UserColumnName="nama" type="xs:string" minOccurs="0" />
+              <xs:element name="jmllembur" msprop:Generator_ColumnVarNameInTable="columnjmllembur" msprop:Generator_ColumnPropNameInRow="jmllembur" msprop:Generator_ColumnPropNameInTable="jmllemburColumn" msprop:Generator_UserColumnName="jmllembur" type="xs:decimal" minOccurs="0" />
+              <xs:element name="totlembur" msprop:Generator_ColumnVarNameInTable="columntotlembur" msprop:Generator_ColumnPropNameInRow="totlembur" msprop:Generator_ColumnPropNameInTable="totlemburColumn" msprop:Generator_UserColumnName="totlembur" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tunj_jabatan" msprop:Generator_ColumnVarNameInTable="columntunj_jabatan" msprop:Generator_ColumnPropNameInRow="tunj_jabatan" msprop:Generator_ColumnPropNameInTable="tunj_jabatanColumn" msprop:Generator_UserColumnName="tunj_jabatan" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tunj_kehadiran" msprop:Generator_ColumnVarNameInTable="columntunj_kehadiran" msprop:Generator_ColumnPropNameInRow="tunj_kehadiran" msprop:Generator_ColumnPropNameInTable="tunj_kehadiranColumn" msprop:Generator_UserColumnName="tunj_kehadiran" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tunj_akomodasi" msprop:Generator_ColumnVarNameInTable="columntunj_akomodasi" msprop:Generator_ColumnPropNameInRow="tunj_akomodasi" msprop:Generator_ColumnPropNameInTable="tunj_akomodasiColumn" msprop:Generator_UserColumnName="tunj_akomodasi" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tunj_makan" msprop:Generator_ColumnVarNameInTable="columntunj_makan" msprop:Generator_ColumnPropNameInRow="tunj_makan" msprop:Generator_ColumnPropNameInTable="tunj_makanColumn" msprop:Generator_UserColumnName="tunj_makan" type="xs:decimal" minOccurs="0" />
+              <xs:element name="jmlhadir" msprop:Generator_ColumnVarNameInTable="columnjmlhadir" msprop:Generator_ColumnPropNameInRow="jmlhadir" msprop:Generator_ColumnPropNameInTable="jmlhadirColumn" msprop:Generator_UserColumnName="jmlhadir" type="xs:int" minOccurs="0" />
+              <xs:element name="gapok" msprop:Generator_ColumnVarNameInTable="columngapok" msprop:Generator_ColumnPropNameInRow="gapok" msprop:Generator_ColumnPropNameInTable="gapokColumn" msprop:Generator_UserColumnName="gapok" type="xs:decimal" minOccurs="0" />
+              <xs:element name="kurangi_gapok" msprop:Generator_ColumnVarNameInTable="columnkurangi_gapok" msprop:Generator_ColumnPropNameInRow="kurangi_gapok" msprop:Generator_ColumnPropNameInTable="kurangi_gapokColumn" msprop:Generator_UserColumnName="kurangi_gapok" type="xs:decimal" minOccurs="0" />
+              <xs:element name="statin" msprop:Generator_ColumnVarNameInTable="columnstatin" msprop:Generator_ColumnPropNameInRow="statin" msprop:Generator_ColumnPropNameInTable="statinColumn" msprop:Generator_UserColumnName="statin" type="xs:string" minOccurs="0" />
+              <xs:element name="pot_cuti" msprop:Generator_ColumnVarNameInTable="columnpot_cuti" msprop:Generator_ColumnPropNameInRow="pot_cuti" msprop:Generator_ColumnPropNameInTable="pot_cutiColumn" msprop:Generator_UserColumnName="pot_cuti" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tunj_sewakend" msprop:Generator_ColumnVarNameInTable="columntunj_sewakend" msprop:Generator_ColumnPropNameInRow="tunj_sewakend" msprop:Generator_ColumnPropNameInTable="tunj_sewakendColumn" msprop:Generator_UserColumnName="tunj_sewakend" type="xs:decimal" minOccurs="0" />
+              <xs:element name="jmlhari" msprop:Generator_ColumnVarNameInTable="columnjmlhari" msprop:Generator_ColumnPropNameInRow="jmlhari" msprop:Generator_ColumnPropNameInTable="jmlhariColumn" msprop:Generator_UserColumnName="jmlhari" type="xs:int" minOccurs="0" />
+              <xs:element name="pot_jamsos" msprop:Generator_ColumnVarNameInTable="columnpot_jamsos" msprop:Generator_ColumnPropNameInRow="pot_jamsos" msprop:Generator_ColumnPropNameInTable="pot_jamsosColumn" msprop:Generator_UserColumnName="pot_jamsos" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

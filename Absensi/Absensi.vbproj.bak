@@ -1,0 +1,1915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6A811413-C92A-47CB-991E-1DAB525248A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Absensi.My.MyApplication</StartupObject>
+    <RootNamespace>Absensi</RootNamespace>
+    <AssemblyName>Absensi</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Absensi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Absensi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1400923335_61129%2864%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Absensi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Absensi.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Absensi.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Absensi.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.BonusSkins.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Xpo.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Win.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Persistent.Base.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.1.Wizard, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v14.1.UI, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v14.1.UI, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v14.1.Extensions, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v14.1.Reporting.Extensions, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Class\Clsmy.vb" />
+    <Compile Include="Class\Mdlmy.vb" />
+    <Compile Include="DS\dsgaji_bulanan.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsgaji_bulanan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dsgaji_bulanan.vb">
+      <DependentUpon>dsgaji_bulanan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dsgaji_mingguan.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsgaji_mingguan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dskary_bydepart.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dskary_bydepart.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dskary_bydepart2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dskary_bydepart2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dskary_bydepart3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dskary_bydepart3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dspersentase.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dspersentase.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dsrekapgaji.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsrekapgaji.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dsrekaptelat.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsrekaptelat.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dsrekaptobank.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsrekaptobank.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dsrekap_absen.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsrekap_absen.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dsthr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsthr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dsthr.vb">
+      <DependentUpon>dsthr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dstotalborongan.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dstotalborongan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dstotlembur_perdepart.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dstotlembur_perdepart.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\dstotlembur_perdepart2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dstotlembur_perdepart2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_borongan_perbln.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_borongan_perbln.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_gajiborongan.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_gajiborongan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_gajiborongan_detail.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_gajiborongan_detail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_gajibulanan1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_gajibulanan1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_gajibulanan3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_gajibulanan3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_gajimingguan1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_gajimingguan1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_gaji_goldep.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_gaji_goldep.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_jamkerja.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_jamkerja.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_karyawanbaru.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_karyawanbaru.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_kary_keluar.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_kary_keluar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_kary_perjenis.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_kary_perjenis.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_kontrakfail.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_kontrakfail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_krangabsen.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_krangabsen.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_mnualabsen.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_mnualabsen.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_tdakhadir.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_tdakhadir.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\ds_uangmakan.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_uangmakan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearch\fskary.Designer.vb">
+      <DependentUpon>fskary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearch\fskary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fabsenmanual.Designer.vb">
+      <DependentUpon>fabsenmanual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fabsenmanual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fabsenmanual2.Designer.vb">
+      <DependentUpon>fabsenmanual2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fabsenmanual2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fbayar.Designer.vb">
+      <DependentUpon>fbayar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fbayar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fbayar2.Designer.vb">
+      <DependentUpon>fbayar2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fbayar2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fbon.Designer.vb">
+      <DependentUpon>fbon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fbon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fbon2.Designer.vb">
+      <DependentUpon>fbon2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fbon2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fdepart.Designer.vb">
+      <DependentUpon>fdepart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fdepart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fdepart2.Designer.vb">
+      <DependentUpon>fdepart2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fdepart2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fdownloadlog.Designer.vb">
+      <DependentUpon>fdownloadlog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fdownloadlog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fdownload_fromatt.Designer.vb">
+      <DependentUpon>fdownload_fromatt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fdownload_fromatt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fkalk_absen_n.Designer.vb">
+      <DependentUpon>fkalk_absen_n.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fkalk_absen_n.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fkaryawan5.Designer.vb">
+      <DependentUpon>fkaryawan5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fkaryawan5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fkaryawan_nonakt.Designer.vb">
+      <DependentUpon>fkaryawan_nonakt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fkaryawan_nonakt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fkaryawan_pgol.Designer.vb">
+      <DependentUpon>fkaryawan_pgol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fkaryawan_pgol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fpot_cuti.Designer.vb">
+      <DependentUpon>fpot_cuti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fpot_cuti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fpot_cuti2.Designer.vb">
+      <DependentUpon>fpot_cuti2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fpot_cuti2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fshift.Designer.vb">
+      <DependentUpon>fshift.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fshift.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fshift2.Designer.vb">
+      <DependentUpon>fshift2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fshift2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fshift3.Designer.vb">
+      <DependentUpon>fshift3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fshift3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\rgaji_borongandetail.Designer.vb">
+      <DependentUpon>rgaji_borongandetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rgaji_borongandetail.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rkary_bydepart3.Designer.vb">
+      <DependentUpon>rkary_bydepart3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rkary_bydepart3.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rtotlembur_perdepart2.Designer.vb">
+      <DependentUpon>rtotlembur_perdepart2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rtotlembur_perdepart2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_absenmnual.Designer.vb">
+      <DependentUpon>r_absenmnual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_absenmnual.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_gajibulanan.Designer.vb">
+      <DependentUpon>r_gajibulanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_gajibulanan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_gajibulanan3.Designer.vb">
+      <DependentUpon>r_gajibulanan3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_gajibulanan3.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_gajibulanan4.Designer.vb">
+      <DependentUpon>r_gajibulanan4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_gajibulanan4.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_gaji_borongan_perbulan.Designer.vb">
+      <DependentUpon>r_gaji_borongan_perbulan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_gaji_borongan_perbulan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_gaji_goldep.Designer.vb">
+      <DependentUpon>r_gaji_goldep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_gaji_goldep.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_jamkerja.Designer.vb">
+      <DependentUpon>r_jamkerja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_jamkerja.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_jamkerja2.Designer.vb">
+      <DependentUpon>r_jamkerja2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_jamkerja2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_karyawanbaru.Designer.vb">
+      <DependentUpon>r_karyawanbaru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_karyawanbaru.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_karyawan_perjenis.Designer.vb">
+      <DependentUpon>r_karyawan_perjenis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_karyawan_perjenis.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_kary_keluar.Designer.vb">
+      <DependentUpon>r_kary_keluar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_kary_keluar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_kontrakfail.Designer.vb">
+      <DependentUpon>r_kontrakfail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_kontrakfail.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_krangabsen.Designer.vb">
+      <DependentUpon>r_krangabsen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_krangabsen.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_rekaptelat.Designer.vb">
+      <DependentUpon>r_rekaptelat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_rekaptelat.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_tidakhadir.Designer.vb">
+      <DependentUpon>r_tidakhadir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_tidakhadir.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_uangmakan.Designer.vb">
+      <DependentUpon>r_uangmakan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_uangmakan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Review\fgaji_blnan1.Designer.vb">
+      <DependentUpon>fgaji_blnan1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fgaji_blnan1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fgaji_blnan11.Designer.vb">
+      <DependentUpon>fgaji_blnan11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fgaji_blnan11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fgaji_borongan_detail.Designer.vb">
+      <DependentUpon>fgaji_borongan_detail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fgaji_borongan_detail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fgaji_borongan_detail2.Designer.vb">
+      <DependentUpon>fgaji_borongan_detail2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fgaji_borongan_detail2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fgaji_brongan_perbulan.Designer.vb">
+      <DependentUpon>fgaji_brongan_perbulan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fgaji_brongan_perbulan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fgaji_mingguan1.designer.vb">
+      <DependentUpon>fgaji_mingguan1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fgaji_mingguan1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fgaji_mingguan11.Designer.vb">
+      <DependentUpon>fgaji_mingguan11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fgaji_mingguan11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fgol_otomat.Designer.vb">
+      <DependentUpon>fgol_otomat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fgol_otomat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fgol_otomat2.Designer.vb">
+      <DependentUpon>fgol_otomat2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fgol_otomat2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fgol_otomat3.Designer.vb">
+      <DependentUpon>fgol_otomat3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fgol_otomat3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fgol_otomat4.Designer.vb">
+      <DependentUpon>fgol_otomat4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fgol_otomat4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fjamkerja.Designer.vb">
+      <DependentUpon>fjamkerja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fjamkerja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fjamkerja2.Designer.vb">
+      <DependentUpon>fjamkerja2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fjamkerja2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fkalk_absen.Designer.vb">
+      <DependentUpon>fkalk_absen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fkalk_absen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fkalk_absen1.Designer.vb">
+      <DependentUpon>fkalk_absen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fkalk_absen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fkalk_absen2.Designer.vb">
+      <DependentUpon>fkalk_absen2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fkalk_absen2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fkaryawan.Designer.vb">
+      <DependentUpon>fkaryawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fkaryawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fkaryawan2.Designer.vb">
+      <DependentUpon>fkaryawan2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fkaryawan2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fkaryawan3.Designer.vb">
+      <DependentUpon>fkaryawan3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fkaryawan3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fkaryawan4.Designer.vb">
+      <DependentUpon>fkaryawan4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fkaryawan4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fload_reports.Designer.vb">
+      <DependentUpon>fload_reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fload_reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fnaik_gaji.Designer.vb">
+      <DependentUpon>fnaik_gaji.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fnaik_gaji.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fnaik_gaji2.Designer.vb">
+      <DependentUpon>fnaik_gaji2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fnaik_gaji2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frubah_pwd.designer.vb">
+      <DependentUpon>frubah_pwd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frubah_pwd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fschedule.Designer.vb">
+      <DependentUpon>fschedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fschedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fsettdbase.Designer.vb">
+      <DependentUpon>fsettdbase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fsettdbase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fslrekap_absen.Designer.vb">
+      <DependentUpon>fslrekap_absen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fslrekap_absen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fslrekap_telat.Designer.vb">
+      <DependentUpon>fslrekap_telat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fslrekap_telat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fsltobank.Designer.vb">
+      <DependentUpon>fsltobank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fsltobank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fsl_rekapgaji.Designer.vb">
+      <DependentUpon>fsl_rekapgaji.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fsl_rekapgaji.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fstathadir.Designer.vb">
+      <DependentUpon>fstathadir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fstathadir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fstathadir2.Designer.vb">
+      <DependentUpon>fstathadir2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fstathadir2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ftinout.Designer.vb">
+      <DependentUpon>ftinout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ftinout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ftinout2.Designer.vb">
+      <DependentUpon>ftinout2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ftinout2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fuser.Designer.vb">
+      <DependentUpon>fuser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fuser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fuser2.Designer.vb">
+      <DependentUpon>fuser2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fuser2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fuser3.Designer.vb">
+      <DependentUpon>fuser3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fuser3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fuserabsen.Designer.vb">
+      <DependentUpon>fuserabsen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fuserabsen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\futama.Designer.vb">
+      <DependentUpon>futama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\futama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\futil_mesin.Designer.vb">
+      <DependentUpon>futil_mesin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\futil_mesin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\waitf.Designer.vb">
+      <DependentUpon>waitf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\waitf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Report\rkary_bydepart.Designer.vb">
+      <DependentUpon>rkary_bydepart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rkary_bydepart.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rkary_bydepart2.Designer.vb">
+      <DependentUpon>rkary_bydepart2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rkary_bydepart2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rthr.Designer.vb">
+      <DependentUpon>rthr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rthr.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rtotalborongan.Designer.vb">
+      <DependentUpon>rtotalborongan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rtotalborongan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rtotlembur_perdepart.Designer.vb">
+      <DependentUpon>rtotlembur_perdepart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rtotlembur_perdepart.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_gajimingguan.Designer.vb">
+      <DependentUpon>r_gajimingguan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_gajimingguan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Review\fgaji_perdepart_pergol.Designer.vb">
+      <DependentUpon>fgaji_perdepart_pergol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fgaji_perdepart_pergol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fkurangabsen1.Designer.vb">
+      <DependentUpon>fkurangabsen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fkurangabsen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fkurangabsen11.Designer.vb">
+      <DependentUpon>fkurangabsen11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fkurangabsen11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpkontrak_fail.Designer.vb">
+      <DependentUpon>fpkontrak_fail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpkontrak_fail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fprthr2.Designer.vb">
+      <DependentUpon>fprthr2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fprthr2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_gajiborongan0.Designer.vb">
+      <DependentUpon>fpr_gajiborongan0.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_gajiborongan0.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\rgaji_borongan.Designer.vb">
+      <DependentUpon>rgaji_borongan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rgaji_borongan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rgaji_bulanan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rgaji_bulanan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rgaji_mingguan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rgaji_mingguan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rrekapgaji.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rrekapgaji.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rrekaptelat.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rrekaptelat.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rrekaptobank.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rrekaptobank.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rrekap_absen.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rrekap_absen.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rr_persentase.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rr_persentase.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Review\fprabsenmesin.Designer.vb">
+      <DependentUpon>fprabsenmesin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fprabsenmesin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fprabsen_all.Designer.vb">
+      <DependentUpon>fprabsen_all.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fprabsen_all.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fprekap_absen.Designer.vb">
+      <DependentUpon>fprekap_absen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fprekap_absen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fprgaji_bulanan.Designer.vb">
+      <DependentUpon>fprgaji_bulanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fprgaji_bulanan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fprgaji_mingguan.Designer.vb">
+      <DependentUpon>fprgaji_mingguan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fprgaji_mingguan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fprrekap_gaji.Designer.vb">
+      <DependentUpon>fprrekap_gaji.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fprrekap_gaji.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fprtobank.Designer.vb">
+      <DependentUpon>fprtobank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fprtobank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_gajiborongan.Designer.vb">
+      <DependentUpon>fpr_gajiborongan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_gajiborongan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_jamkerja.Designer.vb">
+      <DependentUpon>fpr_jamkerja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_jamkerja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_jamkerja2.Designer.vb">
+      <DependentUpon>fpr_jamkerja2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_jamkerja2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_karyawan_perjenis2.Designer.vb">
+      <DependentUpon>fpr_karyawan_perjenis2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_karyawan_perjenis2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_karybydepart.Designer.vb">
+      <DependentUpon>fpr_karybydepart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_karybydepart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_karybydepart2.Designer.vb">
+      <DependentUpon>fpr_karybydepart2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_karybydepart2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_karykeluar.Designer.vb">
+      <DependentUpon>fpr_karykeluar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_karykeluar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_karykeluar2.Designer.vb">
+      <DependentUpon>fpr_karykeluar2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_karykeluar2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_persentase.Designer.vb">
+      <DependentUpon>fpr_persentase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_persentase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_rekaptelat.Designer.vb">
+      <DependentUpon>fpr_rekaptelat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_rekaptelat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_thr.Designer.vb">
+      <DependentUpon>fpr_thr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_thr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_totborongan.Designer.vb">
+      <DependentUpon>fpr_totborongan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_totborongan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_totborongan2.Designer.vb">
+      <DependentUpon>fpr_totborongan2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_totborongan2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_totlembur.Designer.vb">
+      <DependentUpon>fpr_totlembur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_totlembur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fpr_totlembur2.Designer.vb">
+      <DependentUpon>fpr_totlembur2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fpr_totlembur2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\frp_karyawanbaru.Designer.vb">
+      <DependentUpon>frp_karyawanbaru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\frp_karyawanbaru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\frp_karyawanbaru2.Designer.vb">
+      <DependentUpon>frp_karyawanbaru2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\frp_karyawanbaru2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\ftidakhadir.Designer.vb">
+      <DependentUpon>ftidakhadir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\ftidakhadir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\ftidakhadir11.Designer.vb">
+      <DependentUpon>ftidakhadir11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\ftidakhadir11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\fuangmakan1.Designer.vb">
+      <DependentUpon>fuangmakan1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review\fuangmakan1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormSearch\fskary.resx">
+      <DependentUpon>fskary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fabsenmanual.resx">
+      <DependentUpon>fabsenmanual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fabsenmanual2.resx">
+      <DependentUpon>fabsenmanual2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fbayar.resx">
+      <DependentUpon>fbayar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fbayar2.resx">
+      <DependentUpon>fbayar2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fbon.resx">
+      <DependentUpon>fbon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fbon2.resx">
+      <DependentUpon>fbon2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fdepart.resx">
+      <DependentUpon>fdepart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fdepart2.resx">
+      <DependentUpon>fdepart2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fdownloadlog.resx">
+      <DependentUpon>fdownloadlog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fdownload_fromatt.resx">
+      <DependentUpon>fdownload_fromatt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fkalk_absen_n.resx">
+      <DependentUpon>fkalk_absen_n.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fkaryawan5.resx">
+      <DependentUpon>fkaryawan5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fkaryawan_nonakt.resx">
+      <DependentUpon>fkaryawan_nonakt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fkaryawan_pgol.resx">
+      <DependentUpon>fkaryawan_pgol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fpot_cuti.resx">
+      <DependentUpon>fpot_cuti.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fpot_cuti2.resx">
+      <DependentUpon>fpot_cuti2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fshift.resx">
+      <DependentUpon>fshift.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fshift2.resx">
+      <DependentUpon>fshift2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fshift3.resx">
+      <DependentUpon>fshift3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rgaji_borongandetail.resx">
+      <DependentUpon>rgaji_borongandetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rkary_bydepart3.resx">
+      <DependentUpon>rkary_bydepart3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rtotlembur_perdepart2.resx">
+      <DependentUpon>rtotlembur_perdepart2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_absenmnual.resx">
+      <DependentUpon>r_absenmnual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_gajibulanan.resx">
+      <DependentUpon>r_gajibulanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_gajibulanan3.resx">
+      <DependentUpon>r_gajibulanan3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_gajibulanan4.resx">
+      <DependentUpon>r_gajibulanan4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_gaji_borongan_perbulan.resx">
+      <DependentUpon>r_gaji_borongan_perbulan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_gaji_goldep.resx">
+      <DependentUpon>r_gaji_goldep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_jamkerja.resx">
+      <DependentUpon>r_jamkerja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_jamkerja2.resx">
+      <DependentUpon>r_jamkerja2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_karyawanbaru.resx">
+      <DependentUpon>r_karyawanbaru.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_karyawan_perjenis.resx">
+      <DependentUpon>r_karyawan_perjenis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_kary_keluar.resx">
+      <DependentUpon>r_kary_keluar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_kontrakfail.resx">
+      <DependentUpon>r_kontrakfail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_krangabsen.resx">
+      <DependentUpon>r_krangabsen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_rekaptelat.resx">
+      <DependentUpon>r_rekaptelat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_tidakhadir.resx">
+      <DependentUpon>r_tidakhadir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_uangmakan.resx">
+      <DependentUpon>r_uangmakan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fgaji_blnan1.resx">
+      <DependentUpon>fgaji_blnan1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fgaji_blnan11.resx">
+      <DependentUpon>fgaji_blnan11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fgaji_borongan_detail.resx">
+      <DependentUpon>fgaji_borongan_detail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fgaji_borongan_detail2.resx">
+      <DependentUpon>fgaji_borongan_detail2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fgaji_brongan_perbulan.resx">
+      <DependentUpon>fgaji_brongan_perbulan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fgaji_mingguan1.resx">
+      <DependentUpon>fgaji_mingguan1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fgaji_mingguan11.resx">
+      <DependentUpon>fgaji_mingguan11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fgol_otomat.resx">
+      <DependentUpon>fgol_otomat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fgol_otomat2.resx">
+      <DependentUpon>fgol_otomat2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fgol_otomat3.resx">
+      <DependentUpon>fgol_otomat3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fgol_otomat4.resx">
+      <DependentUpon>fgol_otomat4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fjamkerja.resx">
+      <DependentUpon>fjamkerja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fjamkerja2.resx">
+      <DependentUpon>fjamkerja2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fkalk_absen.resx">
+      <DependentUpon>fkalk_absen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fkalk_absen1.resx">
+      <DependentUpon>fkalk_absen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fkalk_absen2.resx">
+      <DependentUpon>fkalk_absen2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fkaryawan.resx">
+      <DependentUpon>fkaryawan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fkaryawan2.resx">
+      <DependentUpon>fkaryawan2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fkaryawan3.resx">
+      <DependentUpon>fkaryawan3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fkaryawan4.resx">
+      <DependentUpon>fkaryawan4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fload_reports.resx">
+      <DependentUpon>fload_reports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fnaik_gaji.resx">
+      <DependentUpon>fnaik_gaji.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fnaik_gaji2.resx">
+      <DependentUpon>fnaik_gaji2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frubah_pwd.resx">
+      <DependentUpon>frubah_pwd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fschedule.resx">
+      <DependentUpon>fschedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fsettdbase.resx">
+      <DependentUpon>fsettdbase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fslrekap_absen.resx">
+      <DependentUpon>fslrekap_absen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fslrekap_telat.resx">
+      <DependentUpon>fslrekap_telat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fsltobank.resx">
+      <DependentUpon>fsltobank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fsl_rekapgaji.resx">
+      <DependentUpon>fsl_rekapgaji.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fstathadir.resx">
+      <DependentUpon>fstathadir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fstathadir2.resx">
+      <DependentUpon>fstathadir2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ftinout.resx">
+      <DependentUpon>ftinout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ftinout2.resx">
+      <DependentUpon>ftinout2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fuser.resx">
+      <DependentUpon>fuser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fuser2.resx">
+      <DependentUpon>fuser2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fuser3.resx">
+      <DependentUpon>fuser3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fuserabsen.resx">
+      <DependentUpon>fuserabsen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\futama.resx">
+      <DependentUpon>futama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\futil_mesin.resx">
+      <DependentUpon>futil_mesin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\waitf.resx">
+      <DependentUpon>waitf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rkary_bydepart.resx">
+      <DependentUpon>rkary_bydepart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rkary_bydepart2.resx">
+      <DependentUpon>rkary_bydepart2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rthr.resx">
+      <DependentUpon>rthr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rtotalborongan.resx">
+      <DependentUpon>rtotalborongan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rtotlembur_perdepart.resx">
+      <DependentUpon>rtotlembur_perdepart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_gajimingguan.resx">
+      <DependentUpon>r_gajimingguan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fgaji_perdepart_pergol.resx">
+      <DependentUpon>fgaji_perdepart_pergol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fkurangabsen1.resx">
+      <DependentUpon>fkurangabsen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fkurangabsen11.resx">
+      <DependentUpon>fkurangabsen11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpkontrak_fail.resx">
+      <DependentUpon>fpkontrak_fail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fprthr2.resx">
+      <DependentUpon>fprthr2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_gajiborongan0.resx">
+      <DependentUpon>fpr_gajiborongan0.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rgaji_borongan.resx">
+      <DependentUpon>rgaji_borongan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rgaji_bulanan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rgaji_bulanan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rgaji_mingguan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rgaji_mingguan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rrekapgaji.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rrekapgaji.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rrekaptelat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rrekaptelat.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rrekaptobank.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rrekaptobank.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rrekap_absen.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rrekap_absen.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rr_persentase.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rr_persentase.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fprabsenmesin.resx">
+      <DependentUpon>fprabsenmesin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fprabsen_all.resx">
+      <DependentUpon>fprabsen_all.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fprekap_absen.resx">
+      <DependentUpon>fprekap_absen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fprgaji_bulanan.resx">
+      <DependentUpon>fprgaji_bulanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fprgaji_mingguan.resx">
+      <DependentUpon>fprgaji_mingguan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fprrekap_gaji.resx">
+      <DependentUpon>fprrekap_gaji.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fprtobank.resx">
+      <DependentUpon>fprtobank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_gajiborongan.resx">
+      <DependentUpon>fpr_gajiborongan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_jamkerja.resx">
+      <DependentUpon>fpr_jamkerja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_jamkerja2.resx">
+      <DependentUpon>fpr_jamkerja2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_karyawan_perjenis2.resx">
+      <DependentUpon>fpr_karyawan_perjenis2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_karybydepart.resx">
+      <DependentUpon>fpr_karybydepart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_karybydepart2.resx">
+      <DependentUpon>fpr_karybydepart2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_karykeluar.resx">
+      <DependentUpon>fpr_karykeluar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_karykeluar2.resx">
+      <DependentUpon>fpr_karykeluar2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_persentase.resx">
+      <DependentUpon>fpr_persentase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_rekaptelat.resx">
+      <DependentUpon>fpr_rekaptelat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_thr.resx">
+      <DependentUpon>fpr_thr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_totborongan.resx">
+      <DependentUpon>fpr_totborongan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_totborongan2.resx">
+      <DependentUpon>fpr_totborongan2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_totlembur.resx">
+      <DependentUpon>fpr_totlembur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fpr_totlembur2.resx">
+      <DependentUpon>fpr_totlembur2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\frp_karyawanbaru.resx">
+      <DependentUpon>frp_karyawanbaru.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\frp_karyawanbaru2.resx">
+      <DependentUpon>frp_karyawanbaru2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\ftidakhadir.resx">
+      <DependentUpon>ftidakhadir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\ftidakhadir11.resx">
+      <DependentUpon>ftidakhadir11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\fuangmakan1.resx">
+      <DependentUpon>fuangmakan1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DS\dsgaji_bulanan.xsc">
+      <DependentUpon>dsgaji_bulanan.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsgaji_bulanan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsgaji_bulanan.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dsgaji_bulanan.xss">
+      <DependentUpon>dsgaji_bulanan.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsgaji_mingguan.xsc">
+      <DependentUpon>dsgaji_mingguan.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsgaji_mingguan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsgaji_mingguan.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dsgaji_mingguan.xss">
+      <DependentUpon>dsgaji_mingguan.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dskary_bydepart.xsc">
+      <DependentUpon>dskary_bydepart.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dskary_bydepart.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dskary_bydepart.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dskary_bydepart.xss">
+      <DependentUpon>dskary_bydepart.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dskary_bydepart2.xsc">
+      <DependentUpon>dskary_bydepart2.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dskary_bydepart2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dskary_bydepart2.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dskary_bydepart2.xss">
+      <DependentUpon>dskary_bydepart2.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dskary_bydepart3.xsc">
+      <DependentUpon>dskary_bydepart3.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dskary_bydepart3.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dskary_bydepart3.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dskary_bydepart3.xss">
+      <DependentUpon>dskary_bydepart3.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dspersentase.xsc">
+      <DependentUpon>dspersentase.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dspersentase.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dspersentase.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dspersentase.xss">
+      <DependentUpon>dspersentase.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsrekapgaji.xsc">
+      <DependentUpon>dsrekapgaji.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsrekapgaji.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsrekapgaji.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dsrekapgaji.xss">
+      <DependentUpon>dsrekapgaji.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsrekaptelat.xsc">
+      <DependentUpon>dsrekaptelat.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsrekaptelat.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsrekaptelat.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dsrekaptelat.xss">
+      <DependentUpon>dsrekaptelat.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsrekaptobank.xsc">
+      <DependentUpon>dsrekaptobank.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsrekaptobank.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsrekaptobank.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dsrekaptobank.xss">
+      <DependentUpon>dsrekaptobank.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsrekap_absen.xsc">
+      <DependentUpon>dsrekap_absen.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsrekap_absen.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsrekap_absen.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dsrekap_absen.xss">
+      <DependentUpon>dsrekap_absen.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsthr.xsc">
+      <DependentUpon>dsthr.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dsthr.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsthr.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dsthr.xss">
+      <DependentUpon>dsthr.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dstotalborongan.xsc">
+      <DependentUpon>dstotalborongan.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dstotalborongan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dstotalborongan.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dstotalborongan.xss">
+      <DependentUpon>dstotalborongan.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dstotlembur_perdepart.xsc">
+      <DependentUpon>dstotlembur_perdepart.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dstotlembur_perdepart.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dstotlembur_perdepart.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dstotlembur_perdepart.xss">
+      <DependentUpon>dstotlembur_perdepart.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dstotlembur_perdepart2.xsc">
+      <DependentUpon>dstotlembur_perdepart2.xsd</DependentUpon>
+    </None>
+    <None Include="DS\dstotlembur_perdepart2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dstotlembur_perdepart2.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\dstotlembur_perdepart2.xss">
+      <DependentUpon>dstotlembur_perdepart2.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_borongan_perbln.xsc">
+      <DependentUpon>ds_borongan_perbln.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_borongan_perbln.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_borongan_perbln.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_borongan_perbln.xss">
+      <DependentUpon>ds_borongan_perbln.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_gajiborongan.xsc">
+      <DependentUpon>ds_gajiborongan.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_gajiborongan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_gajiborongan.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_gajiborongan.xss">
+      <DependentUpon>ds_gajiborongan.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_gajiborongan_detail.xsc">
+      <DependentUpon>ds_gajiborongan_detail.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_gajiborongan_detail.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_gajiborongan_detail.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_gajiborongan_detail.xss">
+      <DependentUpon>ds_gajiborongan_detail.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_gajibulanan1.xsc">
+      <DependentUpon>ds_gajibulanan1.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_gajibulanan1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_gajibulanan1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_gajibulanan1.xss">
+      <DependentUpon>ds_gajibulanan1.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_gajibulanan3.xsc">
+      <DependentUpon>ds_gajibulanan3.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_gajibulanan3.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_gajibulanan3.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_gajibulanan3.xss">
+      <DependentUpon>ds_gajibulanan3.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_gajimingguan1.xsc">
+      <DependentUpon>ds_gajimingguan1.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_gajimingguan1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_gajimingguan1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_gajimingguan1.xss">
+      <DependentUpon>ds_gajimingguan1.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_gaji_goldep.xsc">
+      <DependentUpon>ds_gaji_goldep.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_gaji_goldep.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_gaji_goldep.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_gaji_goldep.xss">
+      <DependentUpon>ds_gaji_goldep.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_jamkerja.xsc">
+      <DependentUpon>ds_jamkerja.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_jamkerja.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_jamkerja.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_jamkerja.xss">
+      <DependentUpon>ds_jamkerja.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_karyawanbaru.xsc">
+      <DependentUpon>ds_karyawanbaru.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_karyawanbaru.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_karyawanbaru.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_karyawanbaru.xss">
+      <DependentUpon>ds_karyawanbaru.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_kary_keluar.xsc">
+      <DependentUpon>ds_kary_keluar.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_kary_keluar.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_kary_keluar.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_kary_keluar.xss">
+      <DependentUpon>ds_kary_keluar.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_kary_perjenis.xsc">
+      <DependentUpon>ds_kary_perjenis.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_kary_perjenis.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_kary_perjenis.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_kary_perjenis.xss">
+      <DependentUpon>ds_kary_perjenis.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_kontrakfail.xsc">
+      <DependentUpon>ds_kontrakfail.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_kontrakfail.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_kontrakfail.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_kontrakfail.xss">
+      <DependentUpon>ds_kontrakfail.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_krangabsen.xsc">
+      <DependentUpon>ds_krangabsen.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_krangabsen.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_krangabsen.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_krangabsen.xss">
+      <DependentUpon>ds_krangabsen.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_mnualabsen.xsc">
+      <DependentUpon>ds_mnualabsen.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_mnualabsen.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_mnualabsen.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_mnualabsen.xss">
+      <DependentUpon>ds_mnualabsen.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_tdakhadir.xsc">
+      <DependentUpon>ds_tdakhadir.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_tdakhadir.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_tdakhadir.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_tdakhadir.xss">
+      <DependentUpon>ds_tdakhadir.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_uangmakan.xsc">
+      <DependentUpon>ds_uangmakan.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ds_uangmakan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_uangmakan.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS\ds_uangmakan.xss">
+      <DependentUpon>ds_uangmakan.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="zkemkeeper">
+      <Guid>{FE9DED34-E159-408E-8490-B720A5E632C7}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1400923335_61129%2864%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

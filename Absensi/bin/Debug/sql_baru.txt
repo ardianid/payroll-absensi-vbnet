@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[ms_lokasi_att](
+	[ms_lokasi] [nvarchar](150) NULL
+) ON [PRIMARY]
+
+GO
+
+
+insert into ms_menu (kodemenu,namamenu,namaform,keterangan,submenu1,submenu2)
+  values ('btndow_att','Download Dari ATT','fdownload_fromatt','Download dari program ATT','RibbonPageGroup3','RibbonPage1')

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_kontrak_periode" targetNamespace="http://tempuri.org/ds_kontrak_periode.xsd" xmlns:mstns="http://tempuri.org/ds_kontrak_periode.xsd" xmlns="http://tempuri.org/ds_kontrak_periode.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_kontrak_periode" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_kontrak_periode" msprop:Generator_UserDSName="ds_kontrak_periode">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nip" msprop:Generator_ColumnVarNameInTable="columnnip" msprop:Generator_ColumnPropNameInRow="nip" msprop:Generator_ColumnPropNameInTable="nipColumn" msprop:Generator_UserColumnName="nip" type="xs:string" minOccurs="0" />
+              <xs:element name="nama" msprop:Generator_ColumnVarNameInTable="columnnama" msprop:Generator_ColumnPropNameInRow="nama" msprop:Generator_ColumnPropNameInTable="namaColumn" msprop:Generator_UserColumnName="nama" type="xs:string" minOccurs="0" />
+              <xs:element name="depart" msprop:Generator_ColumnVarNameInTable="columndepart" msprop:Generator_ColumnPropNameInRow="depart" msprop:Generator_ColumnPropNameInTable="departColumn" msprop:Generator_UserColumnName="depart" type="xs:string" minOccurs="0" />
+              <xs:element name="tgl_mulai" msprop:Generator_ColumnVarNameInTable="columntgl_mulai" msprop:Generator_ColumnPropNameInRow="tgl_mulai" msprop:Generator_ColumnPropNameInTable="tgl_mulaiColumn" msprop:Generator_UserColumnName="tgl_mulai" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="kon_akhir" msprop:Generator_ColumnVarNameInTable="columnkon_akhir" msprop:Generator_ColumnPropNameInRow="kon_akhir" msprop:Generator_ColumnPropNameInTable="kon_akhirColumn" msprop:Generator_UserColumnName="kon_akhir" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tgl_angkat" msprop:Generator_ColumnVarNameInTable="columntgl_angkat" msprop:Generator_ColumnPropNameInRow="tgl_angkat" msprop:Generator_ColumnPropNameInTable="tgl_angkatColumn" msprop:Generator_UserColumnName="tgl_angkat" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="stat" msprop:Generator_ColumnVarNameInTable="columnstat" msprop:Generator_ColumnPropNameInRow="stat" msprop:Generator_ColumnPropNameInTable="statColumn" msprop:Generator_UserColumnName="stat" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
